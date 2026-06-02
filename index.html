@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jayasankar R, a software engineer building full-stack, cloud-native, and embedded systems.">
+    <title>Jayasankar R | Software & Embedded Systems Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260602icon">
+</head>
+<body>
+    <canvas id="signal-canvas" aria-hidden="true"></canvas>
+    <div class="page-shell">
+        <header class="site-header" data-reveal>
+            <a class="brand" href="#home" aria-label="Jayasankar R home">
+                <span class="brand-mark">JR</span>
+                <span class="brand-copy">Jayasankar R</span>
+            </a>
+
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="#work">Work</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero section" id="home">
+                <div class="hero-copy" data-reveal>
+                    <p class="eyebrow">Full-stack + embedded systems engineer</p>
+                    <h1>Building scalable software with hardware-aware engineering discipline.</h1>
+                    <p class="hero-lede">
+                        I am Jayasankar R, a software engineer with 2+ years of experience across Java,
+                        TypeScript, React, cloud-native delivery, and embedded systems fundamentals.
+                    </p>
+                    <div class="hero-actions" aria-label="Resume and contact actions">
+                        <a class="button primary" href="assets/resumes/Jayasankar_R_Software_Resume.pdf" download>
+                            <span aria-hidden="true">&#8595;</span>
+                            Software Resume
+                        </a>
+                        <a class="button secondary" href="assets/resumes/Jayasankar_R_Embedded_Resume.pdf" download>
+                            <span aria-hidden="true">&#8595;</span>
+                            Embedded Resume
+                        </a>
+                        <a class="button ghost" href="mailto:jayasankarr.mec@gmail.com">
+                            <span aria-hidden="true">&#8599;</span>
+                            Email Me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" data-reveal>
+                    <div class="system-board" aria-label="Engineering focus map">
+                        <div class="board-header">
+                            <span class="status-dot"></span>
+                            <span>Systems online</span>
+                        </div>
+                        <div class="signal-map">
+                            <div class="signal-node node-a">
+                                <span>API</span>
+                                <strong>30%</strong>
+                                <small>latency cut</small>
+                            </div>
+                            <div class="signal-node node-b">
+                                <span>CI/CD</span>
+                                <strong>60%</strong>
+                                <small>faster deploys</small>
+                            </div>
+                            <div class="signal-node node-c">
+                                <span>DB</span>
+                                <strong>100k+</strong>
+                                <small>record schemas</small>
+                            </div>
+                            <div class="signal-node node-d">
+                                <span>MCU</span>
+                                <strong>UART</strong>
+                                <small>bootloader work</small>
+                            </div>
+                        </div>
+                        <div class="board-footer">
+                            <span>Java</span>
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>Kubernetes</span>
+                            <span>Embedded C</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section intro-band" id="profile" data-reveal>
+                <p>
+                    I like working where product problems meet system design: backend APIs, ERP workflows,
+                    observability, deployment automation, and low-level embedded concepts like GPIO, UART, ADC,
+                    PWM, flash memory, and bootloaders.
+                </p>
+            </section>
+
+            <section class="section metrics" aria-label="Portfolio highlights" data-reveal>
+                <div class="metric">
+                    <strong>2+ yrs</strong>
+                    <span>Software engineering experience</span>
+                </div>
+                <div class="metric">
+                    <strong>15+</strong>
+                    <span>Features shipped in Agile teams</span>
+                </div>
+                <div class="metric">
+                    <strong>150-200ms</strong>
+                    <span>PostgreSQL response-time improvement</span>
+                </div>
+                <div class="metric">
+                    <strong>Near-zero</strong>
+                    <span>Manual deployment intervention</span>
+                </div>
+            </section>
+
+            <section class="section split-section" id="work">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Experience</p>
+                    <h2>Recent engineering work</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item" data-reveal>
+                        <div class="timeline-date">Aug 2025 - Feb 2026</div>
+                        <div class="timeline-content">
+                            <h3>Full-Stack Engineer, Onfuturesites</h3>
+                            <p>
+                                Built scalable backend APIs with Node.js and Fastify, shipped user-facing features
+                                with Next.js and React Native, and designed PostgreSQL schemas for large datasets.
+                            </p>
+                            <ul>
+                                <li>Reduced API latency by 30 percent through query and service-level optimization.</li>
+                                <li>Improved data consistency across schemas handling 100k+ records.</li>
+                            </ul>
+                            <div class="tag-row">
+                                <span>Node.js</span>
+                                <span>Fastify</span>
+                                <span>Next.js</span>
+                                <span>PostgreSQL</span>
+                                <span>Prisma</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" data-reveal>
+                        <div class="timeline-date">Jun 2025 - Oct 2025</div>
+                        <div class="timeline-content">
+                            <h3>DevOps Engineer, Freelance</h3>
+                            <p>
+                                Built CI/CD delivery workflows using GitHub Actions, ArgoCD, Kubernetes, and AWS EKS,
+                                with monitoring coverage across Prometheus, Grafana, Loki, and Fluent Bit.
+                            </p>
+                            <ul>
+                                <li>Reduced deployment time by 60 percent with automated pipelines.</li>
+                                <li>Improved system reliability with alerting and deployment visibility.</li>
+                            </ul>
+                            <div class="tag-row">
+                                <span>ArgoCD</span>
+                                <span>EKS</span>
+                                <span>Docker</span>
+                                <span>Helm</span>
+                                <span>Grafana</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" data-reveal>
+                        <div class="timeline-date">Aug 2023 - Apr 2025</div>
+                        <div class="timeline-content">
+                            <h3>Full-Stack Engineer, Captain Fresh</h3>
+                            <p>
+                                Engineered backend services and REST APIs for ERP stock-transfer workflows, enterprise
+                                integrations, and high-frequency operational transactions.
+                            </p>
+                            <ul>
+                                <li>Improved operational throughput by 15 percent for stock-transfer workflows.</li>
+                                <li>Built Spring Boot microservices and Kafka-backed asynchronous integrations.</li>
+                            </ul>
+                            <div class="tag-row">
+                                <span>TypeScript</span>
+                                <span>React</span>
+                                <span>Spring Boot</span>
+                                <span>PostgreSQL</span>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section skill-section" id="skills">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Capabilities</p>
+                    <h2>Two tracks, one engineering base</h2>
+                </div>
+
+                <div class="skill-grid">
+                    <article class="skill-card software-card" data-reveal>
+                        <div class="card-kicker">Software systems</div>
+                        <h3>Full-stack and cloud-native delivery</h3>
+                        <p>
+                            Backend APIs, web apps, databases, enterprise integrations, CI/CD, containers, and
+                            production monitoring.
+                        </p>
+                        <div class="chip-cloud">
+                            <span>Java</span>
+                            <span>TypeScript</span>
+                            <span>Node.js</span>
+                            <span>Fastify</span>
+                            <span>Spring Boot</span>
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>PostgreSQL</span>
+                            <span>MongoDB</span>
+                            <span>AWS</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card embedded-card" data-reveal>
+                        <div class="card-kicker">Embedded systems</div>
+                        <h3>Low-level software and control systems</h3>
+                        <p>
+                            Microcontroller fundamentals, communication protocols, power electronics, control models,
+                            and hardware-software integration.
+                        </p>
+                        <div class="chip-cloud">
+                            <span>C</span>
+                            <span>Embedded C</span>
+                            <span>UART</span>
+                            <span>I2C</span>
+                            <span>SPI</span>
+                            <span>CAN</span>
+                            <span>ADC</span>
+                            <span>PWM</span>
+                            <span>GPIO</span>
+                            <span>Flash</span>
+                            <span>MATLAB</span>
+                            <span>Simulink</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section projects-section" id="projects">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Selected projects</p>
+                    <h2>Software, automation, and embedded builds</h2>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card featured-project" data-reveal>
+                        <div class="project-icon-panel" aria-label="GoFarm AI model icon">
+                            <div class="ai-orbit orbit-one"></div>
+                            <div class="ai-orbit orbit-two"></div>
+                            <div class="ai-icon-shell">
+                                <img src="assets/images/gofarm-ai-icon.png" alt="GoFarm logo icon">
+                            </div>
+                            <div class="ai-node node-top">RAG</div>
+                            <div class="ai-node node-right">LLM</div>
+                            <div class="ai-node node-bottom">API</div>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-type">AI agriculture platform</span>
+                            <h3>GoFarm</h3>
+                            <p>
+                                Built an AI-powered agriculture assistant with RAG-enabled crop recommendations,
+                                Node.js APIs, MongoDB storage, authentication, and role-based access.
+                            </p>
+                            <div class="tag-row">
+                                <span>Next.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>RAG</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-reveal>
+                        <span class="project-type">Control systems</span>
+                        <h3>Heat Exchanger Control System</h3>
+                        <p>
+                            Modeled transient thermal behavior and compared PI, PID, and Fuzzy Logic controllers in
+                            MATLAB/Simulink.
+                        </p>
+                        <div class="tag-row">
+                            <span>MATLAB</span>
+                            <span>Simulink</span>
+                            <span>Fuzzy Logic</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-reveal>
+                        <span class="project-type">Power electronics</span>
+                        <h3>Smart Hybrid Inverter</h3>
+                        <p>
+                            Designed an embedded control system integrating solar, battery, and grid sources with
+                            MPPT, ADC-based sensing, and automatic source switching.
+                        </p>
+                        <div class="tag-row">
+                            <span>Embedded C</span>
+                            <span>Arduino</span>
+                            <span>ESP8266</span>
+                            <span>MPPT</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-reveal>
+                        <span class="project-type">Low-level firmware</span>
+                        <h3>UART-Based Flash Bootloader</h3>
+                        <p>
+                            Developed bootloader logic for firmware updates with UART transfer, flash erase/write
+                            routines, checksum validation, and safe application handoff.
+                        </p>
+                        <div class="tag-row">
+                            <span>Embedded C</span>
+                            <span>UART</span>
+                            <span>Flash Memory</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="github-projects" data-reveal>
+                    <div class="github-heading">
+                        <div>
+                            <p class="eyebrow">From GitHub</p>
+                            <h3>Latest public repositories</h3>
+                        </div>
+                        <a class="github-profile-link" href="https://github.com/Jayasankar-R" target="_blank" rel="noreferrer">
+                            View GitHub
+                        </a>
+                    </div>
+                    <div class="github-status" id="github-status">Loading GitHub projects...</div>
+                    <div class="github-grid" id="github-projects" aria-live="polite"></div>
+                </div>
+            </section>
+
+            <section class="section education-section" data-reveal>
+                <div class="section-heading">
+                    <p class="eyebrow">Education</p>
+                    <h2>Electrical and electronics foundation</h2>
+                </div>
+                <div class="education-card">
+                    <div>
+                        <h3>Govt. Model Engineering College</h3>
+                        <p>Bachelor of Technology in Electrical and Electronics Engineering</p>
+                    </div>
+                    <span>Aug 2019 - Jun 2023</span>
+                </div>
+            </section>
+
+            <section class="section contact-section" id="contact">
+                <div class="contact-panel" data-reveal>
+                    <div>
+                        <p class="eyebrow">Contact</p>
+                        <h2>Let us build something clean, reliable, and useful.</h2>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:jayasankarr.mec@gmail.com">
+                            <span>Email</span>
+                            <strong>jayasankarr.mec@gmail.com</strong>
+                        </a>
+                        <a href="tel:+918157909781">
+                            <span>Phone</span>
+                            <strong>+91 8157909781</strong>
+                        </a>
+                        <a href="https://linkedin.com/in/jayasankar-r-078a65210" target="_blank" rel="noreferrer">
+                            <span>LinkedIn</span>
+                            <strong>linkedin.com/in/jayasankar-r-078a65210</strong>
+                        </a>
+                        <a href="https://github.com/Jayasankar-R" target="_blank" rel="noreferrer">
+                            <span>GitHub</span>
+                            <strong>github.com/Jayasankar-R</strong>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <span>&copy; <span id="current-year"></span> Jayasankar R</span>
+            <a href="#home">Back to top</a>
+        </footer>
+    </div>
+
+    <script src="script.js?v=20260602github2"></script>
+</body>
+</html>
